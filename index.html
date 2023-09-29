@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click to Proceed</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        #gif-container {
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div id="gif-container">
-        <!-- Replace 'your-gif-url.gif' with the URL of your GIF -->
-        <img src="https://ia800401.us.archive.org/2/items/msdos_Space_Invaders_1995/screenshot_06.jpg" alt="Image">
-    </div>
+     body, html {
+      height: 100%;
+    }
+
+    .bg {
+
+      background-image: url("https://ia800401.us.archive.org/2/items/msdos_Space_Invaders_1995/screenshot_06.jpg");
+
+  
+      height: 100%;
+
+  
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
     
     <script>
         // Function to navigate to the next page when the GIF is clicked
